@@ -1,0 +1,31 @@
+{
+  "name": "graphql-subscriptions-anysocket",
+  "version": "0.0.1",
+  "description": "Simple PubSub that can receive a socket at creation and manages subscribe and unsubscribe",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polst/graphql-subscriptions-anysocket.git"
+  },
+  "keywords": [
+    "graphql",
+    "subscriptions",
+    "transport",
+    "socket"
+  ],
+  "author": "Paul Apostol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polst/graphql-subscriptions-anysocket/issues"
+  },
+  "homepage": "https://github.com/polst/graphql-subscriptions-anysocket#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
